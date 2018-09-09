@@ -1,0 +1,27 @@
+{
+  "name": "Zadanie-FilmWeb-FrontEnd",
+  "version": "1.0.0",
+  "description": "Zadanie rekrutacyjne",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "author": "pruss",
+  "browser": "dist/handlebars.js",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^2.0.0",
+    "handlebars": "^4.0.11",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}
